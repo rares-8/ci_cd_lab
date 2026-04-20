@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/rares-8/go-simple-webserver@sha256:24dd7529a282377da012ddc7f09d7cbecce3edf3c44d56d7b6915127ed565cb5
+          image: ghcr.io/rares-8/go-simple-webserver:latest
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
