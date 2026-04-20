@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/rares-8/ci_cd_lab:latest
+          image: ghcr.io/rares-8/ci_cd_lab@sha256:24dd7529a282377da012ddc7f09d7cbecce3edf3c44d56d7b6915127ed565cb5
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
